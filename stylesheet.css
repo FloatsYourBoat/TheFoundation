@@ -1,0 +1,22 @@
+body{
+	font-family: verdana, sans-serif
+}
+table img{
+	height: 100px;
+}
+table{ 
+margin: auto; 
+ }
+table, td, th{
+	border: 5px groove lightblue;
+	border-collapse: collapse;
+	padding: 10px 20px;
+	/*padding-top: 10pt
+	padding-bottom: 10pt;
+	padding-left: 20pt
+	padding-right:20pt;*/
+}
+
+td, th{ 
+padding: 10pt 20pt; 
+}
