@@ -21,7 +21,18 @@ td, th{
 padding: 10pt 20pt; 
 }
 .nav{ list-style-type: none;
+	border: 2px dotted;
  margin:0;
  padding:0;
  overflow: hidden;
  }
+
+ li.nav a{ 
+ display: block;
+  background-color: lightblue;
+  padding: 10pt 20pt;
+
+}
+li.nav{
+	float: left;
+}
