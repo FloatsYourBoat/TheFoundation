@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating Forms</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+	<h1>HTML Forms</h1>
+			<form action= "https://www.w3schools.com/action_page.php">
+				 <h2>Radio buttons</h2>
+				 	
+				 	<br>
+				 	<input type="radio" input id="intake"  name="Sport" value="Squash"> 
+				 	<label for="intake"> Sqaush </label>
+				 	<br>
+				 	<input type="radio" input id="intake" name="Sport" value="basketball"> 
+				 	<label for="intake"> Basketball </label>
+				 	<br>
+				 	<input type="radio" input id="intake" name="Sport" value="curling"> 
+				 	<label for= "intake"> Curling </label>
+				 	<br>
+					<input type="radio" inout id="intake" name="Sport" value="Cheer"> 
+					<label for= "intake"> Cheer </label><br>
+					<br>First Name:
+					<input type="text type" name="firstName" size="40" placeholder="Bobby">
+					<br>
+					<br>Last Name:
+					<input type="text type" name="firstName" size="40">
+					<br>
+					<input type="submit" name="submit"><br>
+	</form>
+
+<h2> Color picker? </h2>
+<form action= "https://www.w3schools.com/action_page.php"> 
+	<input type="color" name="color pick">
+		<input type="submit" name="submit"><br>
+
+<h2> date picker? </h2>
+<form action= "https://www.w3schools.com/action_page.php"> 
+	<input type="date" name="datepick">
+		<input type="submit" name="submit"><br>
+
+<h2> Email </h2>
+<form action= "https://www.w3schools.com/action_page.php"> 
+	<input type="email" name="email pick">
+		<input type="submit" name="submit"><br>
+
