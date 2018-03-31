@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating Forms</title>
+</head>
+<body>
+	<h1>HTML Forms</h1>
+			<form action= "https://www.w3schools.com/action_page.php">
+				 <h2>Radio buttons</h2>
+				 	
+				 	<br>
+				 	<input type="radio" input id="intake"  name="Sport" value="Squash"> 
+				 	<label for="intake"> Sqaush </label>
+				 	<br>
+				 	<input type="radio" input id="intake" name="Sport" value="basketball"> 
+				 	<label for="intake"> Basketball </label>
+				 	<br>
+				 	<input type="radio" input id="intake" name="Sport" value="curling"> 
+				 	<label for= "intake"> Curling </label>
+				 	<br>
+					<input type="radio" inout id="intake" name="Sport" value="Cheer"> 
+					<label for= "intake"> Cheer </label><br>
+					<br>First Name:
+					<input type="text type" name="firstName" size="40" placeholder="Bobby">
+					<br>
+					<br>Last Name:
+					<input type="text type" name="firstName" size="40">
+					<br>
+					<input type="submit" name="submit"><br>
+	</form>
+
+<h2> Color picker? </h2>
+<form action= "https://www.w3schools.com/action_page.php"> 
+	<input type="color" name="color pick">
+		<input type="submit" name="submit"><br>
+
+<h2> date picker? </h2>
+<form action= "https://www.w3schools.com/action_page.php"> 
+	<input type="date" name="datepick">
+		<input type="submit" name="submit"><br>
+
+<h2> Email </h2>
+<form action= "https://www.w3schools.com/action_page.php"> 
+	<input type="email" name="email pick">
+		<input type="submit" name="submit"><br>
+
+
+<!--
+		HTML5 Input Types
+HTML5 added several new input types:
+
+color
+date
+datetime-local
+email
+month
+number
+range
+search
+tel
+time
+url
+week
+</body>
+</html>
+-->
