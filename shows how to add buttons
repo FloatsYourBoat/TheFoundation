@@ -1,0 +1,6 @@
+<h2> Buttons </h2>
+Button can be styled better than the form tag 
+	<input type="radio" input id="intake"  name="Sport" value="Squash"> 
+<label for="intake"> Sqaush </label>
+<button type="submit"> Standard button </button>
+<button type="reset"> Reset </button>
