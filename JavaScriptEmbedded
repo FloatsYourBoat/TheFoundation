@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conver to to Celsisus</title>
+</head>
+<body>
+	<h1> Convert to Celsisus</h1>
+	<p>The temp in Fareheight</p>
+	<p id="tempLocation"></p>
+
+	<script type="text/javascript">
+		var celsisus = prompt("what is the temp in celsisus?")
+		var temp = function (celsisus){
+			return celsisus * 9 / 5 + 32
+			
+		}
+		
+
+document.getElementById("tempLocation").innerHTML = temp(celsisus);
+
+</body>
+</style>
+</html>
