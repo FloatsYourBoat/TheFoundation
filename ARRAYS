@@ -1,0 +1,15 @@
+Methods for Arrays
+push(new_value); adds item to the end (recalibrates the length)
+pop(); add to the beginning item (recalibrates the length)
+
+unshift (new_value); adds to the beginning item (recalibrates the length)
+shift(); takes away the first item (recalibrates the length)
+
+indexOfValue; Search value
+slice (begValue, endValue) 
+
+var fruits= ["apple", "lemon", "orange", "banana"]
+var citrusFruits.slice[1,3] (start and end)
+
+
+
